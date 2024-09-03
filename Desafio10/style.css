@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonteandroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body {
+    margin: 0px;
+    background-color: #A3C093;
+}
+
+header {
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, 'Times New Roman', serif, sans-serif;
+    background-image: linear-gradient(to bottom, #A3C093, #2D4122 );
+    padding: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+header > h2 {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+nav {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+nav > a {
+    margin-right: 20px;
+    color: white
+
+}
+
+section {
+    background-color: white;
+    width: 800px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+section > p {
+    text-align: justify;
+    padding: 5px
+}
+
+section > h1 {
+    font-family: 'fonteandroid';
+    text-align: center;
+    color: #ADEB8C;
+    
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section > h2 {
+    font-family: 'fonteandroid';
+    padding-left: 10px;
+    color: #ADEB8C;
+    text-shadow: 1px 1px 3px black;
+    background-color: #bae0a562;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+picture {
+    width: 100%;
+}
